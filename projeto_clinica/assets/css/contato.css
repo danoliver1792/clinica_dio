@@ -1,0 +1,68 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.formulario {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: auto;
+    text-align: right;
+    transform: translate(75%, 50%);
+    background-color: rgb(112, 173, 70);
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.form-input {
+    position: relative;
+    
+}
+
+.form-input-as [type=text] {
+    height: 60px;
+    
+}
+
+.botao {
+    cursor: pointer;
+}
+
+.wrapper {
+    display: flex;
+    margin: 0 auto;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: rgb(112, 173, 70);
+    padding: 10px 20px 0px;
+}
+
+.menu, ul, li, a {
+    color: black;
+}
+
+.header {
+    min-height: 150px;
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+    font-size: 15px;
+}
+.footer {
+    background-color: rgb(112, 173, 70);
+    min-height: 150px;
+}
